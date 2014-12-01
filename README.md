@@ -1,4 +1,4 @@
-Rails Basics 01
+Hacking Presentations
 ==========================
 
 Presentation is made with slideshow gem and reveal.js library (links at the "Tools used" section).
