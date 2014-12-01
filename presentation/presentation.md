@@ -84,11 +84,6 @@ custom_css: presentation
 
 !SLIDE down-open
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-!SLIDE down-open
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 !SLIDE
 ## Thank you!
 <p>&nbsp;</p>
@@ -100,7 +95,7 @@ custom_css: presentation
 <p>&nbsp;</p>
 <p>
 <p class="fragment">
-  View it online: <a href="http://xarisd.io/presentations/hacking-presentations.html">xarisd.io/presentations//hacking-presentations.html</a>
+  View it online: <a href="http://xarisd.io/presentations/hacking-presentations.html">xarisd.io/presentations/hacking-presentations.html</a>
 </p>
 <p>&nbsp;</p>
 <p class="fragment">
