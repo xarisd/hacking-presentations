@@ -50,7 +50,7 @@ custom_css: presentation
 
 * Traditional Tools
 * Tools as a Service
-* Open Source Tools
+* Open Source Tools - HTML5 Presentation Engines
 * s9
 
 
@@ -132,11 +132,9 @@ custom_css: presentation
   <li class="fragment"><a href="http://www.powtoon.com/">PowToon</a></li>
   <li class="fragment"><a href="http://www.emaze.com/">emaze</a></li>
   <li class="fragment">...</li>
-  <li class="fragment">...</li>
 </ul>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p class="fragment">There are MANY more, but again...not interested</p>
+<p class="fragment">There are MANY more, but again...<span class="fragment">not interested</span></p>
 <p>&nbsp;</p>
 <p class="fragment">OK, maybe a little :-) </p>
 
@@ -159,16 +157,17 @@ custom_css: presentation
 !SLIDE
 #### (Tools as a Service)
 
-## What are they BETTER than traditional tools?
+## Why are they BETTER than traditional tools?
 <p>&nbsp;</p>
-
 <p>&nbsp;</p>
 <ul>
   <li class="fragment">You need ONLY a browser to make them</li>
   <li class="fragment">You need ONLY a browser to PLAY them</li>
   <li class="fragment">REALLY easy to SHARE a presentation</li>
 </ul>
-<p class="fragment">...but...</p>
+<p>&nbsp;</p>
+<p class="fragment">but...</p>
+<p>&nbsp;</p>
 <p class="fragment">They are not as fully featured as the traditional tools</p>
 
 
@@ -181,7 +180,7 @@ custom_css: presentation
 
 <p>&nbsp;</p>
 <p class="fragment">...pretty much for the same reasons</p>
-
+<p>&nbsp;</p>
 <ul>
   <li class="fragment">Speed of presentation development</li>
   <li class="fragment">Embedding <code>code</code> examples (a little better)</li>
@@ -198,8 +197,122 @@ custom_css: presentation
 !SLIDE
 ## Open Source Tools
 <p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 class="fragment">HTML5 Presentation Engines</h3>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <p class="fragment">...now we are talking!</p>
 
+
+!SLIDE
+#### (Open Source Tools - HTML5 Presentation Engines)
+
+## Most Common
+
+<p>&nbsp;</p>
+<ul>
+  <li class="fragment"><a href="http://imakewebthings.com/deck.js/">deck.js</a></li>
+  <li class="fragment"><a href="http://bartaz.github.io/impress.js/#/bored">impress.js</a></li>
+  <li class="fragment"><a href="http://lab.hakim.se/reveal-js/#/">reveal.js</a></li>
+  <li class="fragment"><a href="http://shwr.me/">shower</a></li>
+  <li class="fragment"><a href="http://remarkjs.com/">remark</a></li>
+  <li class="fragment"><a href="http://flowtime-js.marcolago.com/">flowtime.js</a></li>
+  <li class="fragment"><a href="http://markdalgleish.com/projects/fathom/">Fathom.js</a></li>
+  <li class="fragment">...</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="fragment">There are MANY more, coming up every day...</p>
+<p>&nbsp;</p>
+<p class="fragment">Give them a try and pick the one you prefer!</p>
+
+
+
+!SLIDE
+#### (Open Source Tools - HTML5 Presentation Engines)
+
+## Why and WHEN are they BETTER?
+
+<p>&nbsp;</p>
+<p class="fragment">...pretty much for what WE do</p>
+<p>&nbsp;</p>
+<p class="fragment"><strong>MEETUP PRESENTATIONS!</strong></p>
+<p>&nbsp;</p>
+<p class="fragment">..."educational" presentations in general</p>
+
+
+!SLIDE
+#### (Open Source Tools - HTML5 Presentation Engines)
+
+## Why and WHEN are they BETTER? (2)
+<p>&nbsp;</p>
+<h3 class="fragment">When you don't need</h3>
+<p>&nbsp;</p>
+<ul>
+  <li class="fragment">Sales or Pitch presentation</li>
+  <li class="fragment">Charts</li>
+  <li class="fragment">Plenty of (unnecessary) animation</li>
+</ul>
+
+
+!SLIDE
+#### (Open Source Tools - HTML5 Presentation Engines)
+
+## Why and WHEN are they BETTER? (3)
+<p>&nbsp;</p>
+<h3 class="fragment">When the following features are important</h3>
+<p>&nbsp;</p>
+<ul>
+  <li class="fragment">Speed of presentation development</li>
+  <li class="fragment">Embedding <code>code</code> examples (a little better)</li>
+  <li class="fragment">You need ONLY a TEXT EDITOR to make them</li>
+  <li class="fragment">You need ONLY a BROWSER to PLAY them</li>
+  <li class="fragment">You can make <strong>your own theme</strong></li>
+  <li class="fragment">Easy sharing</li>
+  </li>
+</ul>
+
+!SLIDE
+#### (Open Source Tools - HTML5 Presentation Engines)
+
+## Why and WHEN are they BETTER? (4)
+<p>&nbsp;</p>
+<h3 class="fragment">Really easy sharing</h3>
+<p>&nbsp;</p>
+
+<ul>
+  <li class="fragment">It's just an HTML page</li>
+  <li class="fragment">Put it in a server</li>
+  <li class="fragment">Share the link!</li>
+  <li class="fragment">or... upload them in
+    <ul>
+      <li class="fragment"><a href="https://speakerdeck.com">Speaker Desck (as pdf)</a></li>
+      <li class="fragment"><a href="https://slides.com/">Slides.com (reveal.js compatible)</a></li>
+      <li class="fragment">the service of your choice (as pdf)</li>
+    </ul>
+  </li>
+</ul>
+
+
+!SLIDE
+#### (Open Source Tools - HTML5 Presentation Engines)
+
+## What's the catch?
+
+<p>&nbsp;</p>
+<p class="fragment">...well</p>
+<p>&nbsp;</p>
+<h3 class="fragment">You make them in <code>HTML</code></h3>
+<p>&nbsp;</p>
+<p class="fragment">
+  Not really good for plenty of content
+  <br/>(i.e. for educational purposes)
+</p>
+
+
+!SLIDE
+## So, is there a solution?
 
 
 !SLIDE down-close
