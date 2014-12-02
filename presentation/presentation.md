@@ -341,12 +341,10 @@ custom_css: presentation
 
 
 !SLIDE
-#### (S9)
-
 ## What does it do?
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p class="fragment">It takes Markdown and turns it to a Slide Show</p>
+<p class="fragment">It takes Markdown (or Textile) and turns it to a Slide Show</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p class="fragment">Enter the Ruby way :-)</p>
@@ -354,27 +352,118 @@ custom_css: presentation
 
 
 !SLIDE
-#### (S9)
-
 ## How to install it
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="fragment">1. You will need Ruby (preferably >= 2.0)</p>
+<p>&nbsp;</p>
+<p class="fragment">2. Install the slideshow (S9) gem</p>
+<pre class="fragment"><code class="bash">
+<%= include 'code/01_gem_install_slideshow.sh' %>
+</code></pre>
 
 
 !SLIDE
-#### (S9)
-
 ## How to use it
 
+!SLIDE
+<p>&nbsp;</p>
+<p>1. Create a file in <code>Markdown</code> or <code>Textile</code> , <br/><br/>for example <code>presentation.md</code></p>
+<pre class="fragment"><code class="markdown">
+<%= include 'code/presentation.md' %>
+</code></pre>
 
 !SLIDE
-#### (S9)
+<p>&nbsp;</p>
+<p>2. Build the presentation with <code>slideshow</code> cli</p>
+<pre class="fragment"><code class="bash">
+<%= include 'code/03_slideshow_build.sh' %>
+</code></pre>
+<p>&nbsp;</p>
+<p class="fragment">3. Open the generated <code>presentation.html</code> in your browser</p>
 
+!SLIDE
 ## Demo time!
 
 
 !SLIDE
-#### (S9)
+### OK that's nice...but it is UGLY!
 
-## More info
+
+!SLIDE
+## No problem
+<p>&nbsp;</p>
+<p class="fragment">You can use it with HTML5 Presentation Engines</p>
+<p>&nbsp;</p>
+<p class="fragment">Yeah!</p>
+
+
+!SLIDE
+### Which Engines are supported
+<p>&nbsp;</p>
+<p class="fragment">In S9 lingo they are called "Template Packs"</p>
+<p>&nbsp;</p>
+<ul>
+  <li class="fragment"><a href="http://imakewebthings.com/deck.js/">deck.js</a></li>
+  <li class="fragment"><a href="http://bartaz.github.io/impress.js/#/bored">impress.js</a></li>
+  <li class="fragment"><a href="http://lab.hakim.se/reveal-js/#/">reveal.js</a> <a href="https://github.com/xarisd/slideshow-reveal.js/blob/add-submodule-commands-to-readme/README.markdown">(manual installation)</a></li>
+  <li class="fragment"><a href="https://github.com/slideshow-s9/slideshow">s5blank</a></li>
+  <li class="fragment"><a href="https://github.com/slideshow-s9/slideshow">s5themes</a></li>
+  <li class="fragment"><a href="https://github.com/slideshow-s9/slideshow">slidy</a></li>
+  <li class="fragment"><a href="https://github.com/slideshow-s9/slideshow">g5</a></li>
+  <li class="fragment"><a href="https://github.com/slideshow-s9/slideshow">csss</a></li>
+</ul>
+
+
+!SLIDE
+### How to install the "Template Packs"
+<p>&nbsp;</p>
+<p class="fragment">With the <code>slideshow</code> cli</p>
+<pre class="fragment"><code class="bash">
+<%= include 'code/04_slideshow_install_a.sh' %>
+</code></pre>
+
+
+!SLIDE
+## How to use a "Template Pack"
+<p>&nbsp;</p>
+<p>With the <code>slideshow</code> cli during <code>build</code></p>
+<pre class="fragment"><code class="bash">
+<%= include 'code/05_slideshow_build_impress.sh' %>
+</code></pre>
+
+
+!SLIDE
+## Demo time AGAIN!
+
+
+
+!SLIDE
+### OK that's nice...
+<p>&nbsp;</p>
+<h3 class="fragment">but I want to use the <code>???</code> engine.</h3>
+
+
+!SLIDE
+### No problem
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 class="fragment">You can built <br/><a href="http://slideshow-s9.github.io/template.html">your own Template Pack</a>!</h3>
+<p>&nbsp;</p>
+<p class="fragment"><a href="https://github.com/xarisd/slideshow-reveal.js">slideshow-reveal.js</a> is such an example </p>
+
+!SLIDE
+### A final piece of advice
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 class="fragment">Automate!</h3>
+<h3 class="fragment">Automate!!</h3>
+<h3 class="fragment">Automate!!!</h3>
+<p>&nbsp;</p>
+<p class="fragment">Take a look at the source of this presentation <br/><a href="https://github.com/xarisd/hacking-presentations">https://github.com/xarisd/hacking-presentations</a></p>
+<p>&nbsp;</p>
+<p class="fragment">I am using <code>rake</code> tasks to automate my workflow.</p>
+
 
 
 
@@ -402,3 +491,17 @@ custom_css: presentation
 </p>
 <p>&nbsp;</p>
 <p class="fragment">Questions?</p>
+
+!SLIDE down-close
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!SLIDE down-open
+!SLIDE
+<h1>Ruby rocks!</h1>
+<p>&nbsp;</p>
+<p class="fragment">OK...</p>
+<p>&nbsp;</p>
+<p class="fragment">JavaScript too!</p>
+<p>&nbsp;</p>
+<p class="fragment">OK...OK...</p>
+<p>&nbsp;</p>
+<p class="fragment">Python too!</p>
