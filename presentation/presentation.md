@@ -9,8 +9,11 @@ transition: linear
 custom_css: presentation
 % code-engine: coderay
 
-# Hacking Presentations
 
+!SLIDE
+## Hacking Presentations
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <p class="fragment">Building a simple presentation with Markdown</p>
 
 !SLIDE
@@ -51,14 +54,34 @@ custom_css: presentation
 * s9
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!SLIDE down-open
 !SLIDE
 ## Traditional Tools
 
-!SLIDE down-open
+!SLIDE down-close
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!SLIDE down-open
+!SLIDE
+## Tools as a Service
+
+
+!SLIDE down-close
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!SLIDE down-open
+!SLIDE
+## Open Source Tools
+
+
+
+!SLIDE down-close
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!SLIDE down-open
 !SLIDE
 ## Meet s9
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <p class="fragment">Enter the Ruby way :-)</p>
 
 !SLIDE
@@ -81,9 +104,8 @@ custom_css: presentation
 ## More info
 
 !SLIDE down-close
-
-!SLIDE down-open
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!SLIDE down-open
 !SLIDE
 ## Thank you!
 <p>&nbsp;</p>

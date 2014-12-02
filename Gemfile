@@ -6,4 +6,3 @@ gem 'activerecord'
 gem 'rake'
 gem 'ultraviolet'
 gem 'coderay'
-
