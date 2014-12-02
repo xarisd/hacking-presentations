@@ -51,7 +51,7 @@ custom_css: presentation
 * Traditional Tools
 * Tools as a Service
 * Open Source Tools - HTML5 Presentation Engines
-* s9
+* S9
 
 
 
@@ -319,29 +319,64 @@ custom_css: presentation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 !SLIDE down-open
 !SLIDE
-## Meet s9
+## Meet S9
+
+!SLIDE
+## S9?
+
+<div class="fragment">
+  <%= image 'images/AudiA9render.jpg' %>
+  <p>is it...an Audi?</p>
+</div>
+
+!SLIDE
+## S9
+
+<div class="fragment">
+  <img src="images/Ruby_logo.png" height="400px"/>
+  <%#= image 'images/Ruby_logo.png' %>
+  <p>no...it's a Ruby gem</p>
+</div>
+
+
+
+!SLIDE
+#### (S9)
+
+## What does it do?
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="fragment">It takes Markdown and turns it to a Slide Show</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p class="fragment">Enter the Ruby way :-)</p>
 
-!SLIDE
-## What is s9
 
 
 !SLIDE
+#### (S9)
+
 ## How to install it
 
 
 !SLIDE
+#### (S9)
+
 ## How to use it
 
 
 !SLIDE
+#### (S9)
+
 ## Demo time!
 
 
 !SLIDE
+#### (S9)
+
 ## More info
+
+
 
 !SLIDE down-close
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
