@@ -14,7 +14,7 @@ custom_css: presentation
 ## Hacking Presentations
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p class="fragment">Building a simple presentation with Markdown</p>
+<p class="fragment">Building presentations with simple markup</p>
 
 !SLIDE
 ## Who am I?
@@ -83,8 +83,7 @@ custom_css: presentation
 
 <p>&nbsp;</p>
 <ul>
-  <li class="fragment">Sales</li>
-  <li class="fragment">Pitching</li>
+  <li class="fragment">"Sales like" presentations</li>
   <li class="fragment">Lots of interactivity and animations</li>
   <li class="fragment">Charts</li>
   <li class="fragment">...</li>
@@ -146,9 +145,9 @@ custom_css: presentation
 ## What are they good for?
 <p>&nbsp;</p>
 <p class="fragment">...for the same reasons</p>
+<p>&nbsp;</p>
 <ul>
-  <li class="fragment">Sales</li>
-  <li class="fragment">Pitching</li>
+  <li class="fragment">"Sales like" presentations</li>
   <li class="fragment">Lots of interactivity and animations</li>
   <li class="fragment">Charts</li>
   <li class="fragment">...</li>
@@ -206,7 +205,7 @@ custom_css: presentation
 
 
 !SLIDE
-#### (Open Source Tools - HTML5 Presentation Engines)
+##### (HTML5 Presentation Engines)
 
 ## Most Common
 
@@ -230,38 +229,39 @@ custom_css: presentation
 
 
 !SLIDE
-#### (Open Source Tools - HTML5 Presentation Engines)
+##### (HTML5 Presentation Engines)
 
-## Why and WHEN are they BETTER?
+### Why and WHEN are they BETTER?
 
 <p>&nbsp;</p>
-<p class="fragment">...pretty much for what WE do</p>
+<p class="fragment">They are <strong>excellent</strong> for what WE do</p>
 <p>&nbsp;</p>
 <p class="fragment"><strong>MEETUP PRESENTATIONS!</strong></p>
 <p>&nbsp;</p>
-<p class="fragment">..."educational" presentations in general</p>
+<p class="fragment">And "educational" presentations in general</p>
 
 
 !SLIDE
-#### (Open Source Tools - HTML5 Presentation Engines)
+##### (HTML5 Presentation Engines)
 
-## Why and WHEN are they BETTER? (2)
+### Why and WHEN are they BETTER? (2)
 <p>&nbsp;</p>
 <h3 class="fragment">When you don't need</h3>
 <p>&nbsp;</p>
 <ul>
-  <li class="fragment">Sales or Pitch presentation</li>
+  <li class="fragment">A "Sales like" presentation</li>
   <li class="fragment">Charts</li>
   <li class="fragment">Plenty of (unnecessary) animation</li>
 </ul>
 
 
 !SLIDE
-#### (Open Source Tools - HTML5 Presentation Engines)
+##### (HTML5 Presentation Engines)
 
-## Why and WHEN are they BETTER? (3)
+### Why and WHEN are they BETTER? (3)
 <p>&nbsp;</p>
-<h3 class="fragment">When the following features are important</h3>
+<p>&nbsp;</p>
+<p class="fragment">When the following features are important</p>
 <p>&nbsp;</p>
 <ul>
   <li class="fragment">Speed of presentation development</li>
@@ -274,9 +274,9 @@ custom_css: presentation
 </ul>
 
 !SLIDE
-#### (Open Source Tools - HTML5 Presentation Engines)
+##### (HTML5 Presentation Engines)
 
-## Why and WHEN are they BETTER? (4)
+### Why and WHEN are they BETTER? (4)
 <p>&nbsp;</p>
 <h3 class="fragment">Really easy sharing</h3>
 <p>&nbsp;</p>
@@ -296,7 +296,7 @@ custom_css: presentation
 
 
 !SLIDE
-#### (Open Source Tools - HTML5 Presentation Engines)
+##### (HTML5 Presentation Engines)
 
 ## What's the catch?
 
@@ -500,8 +500,10 @@ custom_css: presentation
 <p>&nbsp;</p>
 <p class="fragment">OK...</p>
 <p>&nbsp;</p>
-<p class="fragment">JavaScript too!</p>
+<p class="fragment">JavaScript rocks too!</p>
 <p>&nbsp;</p>
 <p class="fragment">OK...OK...</p>
 <p>&nbsp;</p>
-<p class="fragment">Python too!</p>
+<p class="fragment">So does Python!</p>
+<p>&nbsp;</p>
+<p class="fragment">Have fun!!!!!!!!!!!!!</p>
