@@ -358,10 +358,12 @@ custom_css: presentation
 <p class="fragment">1. You will need Ruby (preferably >= 2.0)</p>
 <p>&nbsp;</p>
 <p class="fragment">2. Install the slideshow (S9) gem</p>
-<pre class="fragment"><code class="bash">
-<%= include 'code/01_gem_install_slideshow.sh' %>
-</code></pre>
 
+<pre class="fragment">
+  <code class="bash">
+    <%= include 'code/01_gem_install_slideshow.sh' %>
+  </code>
+</pre>
 
 !SLIDE
 ## How to use it
@@ -465,7 +467,21 @@ custom_css: presentation
 <p class="fragment">I am using <code>rake</code> tasks to automate my workflow.</p>
 
 
-
+!SLIDE
+## More Info
+<p>&nbsp;</p>
+<ul>
+  <li class="fragment">
+    slideshow (S9) source: <a href="https://github.com/slideshow-s9/slideshow">https://github.com/slideshow-s9/slideshow</a>
+  </li>
+  <!-- <p>&nbsp;</p> -->
+  <li class="fragment">
+    slideshow (S9) documentation: <a href="http://slideshow-s9.github.io/">http://slideshow-s9.github.io/</a>
+  </li>
+  <li class="fragment">
+    How to install the <a href="https://github.com/hakimel/reveal.js">reveal.js</a> template pack: <a href="https://github.com/xarisd/slideshow-reveal.js/blob/add-submodule-commands-to-readme/README.markdown">github.com/xarisd/slideshow-reveal.js</a> (fork)
+  </li>
+</ul>
 
 !SLIDE down-close
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -491,19 +507,3 @@ custom_css: presentation
 </p>
 <p>&nbsp;</p>
 <p class="fragment">Questions?</p>
-
-!SLIDE down-close
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-!SLIDE down-open
-!SLIDE
-<h1>Ruby rocks!</h1>
-<p>&nbsp;</p>
-<p class="fragment">OK...</p>
-<p>&nbsp;</p>
-<p class="fragment">JavaScript rocks too!</p>
-<p>&nbsp;</p>
-<p class="fragment">OK...OK...</p>
-<p>&nbsp;</p>
-<p class="fragment">So does Python!</p>
-<p>&nbsp;</p>
-<p class="fragment">Have fun!!!!!!!!!!!!!</p>
