@@ -221,7 +221,6 @@ custom_css: presentation
   <li class="fragment">...</li>
 </ul>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 <p class="fragment">There are MANY more, coming up every day...</p>
 <p>&nbsp;</p>
 <p class="fragment">Give them a try and pick the one you prefer!</p>
@@ -482,6 +481,12 @@ custom_css: presentation
     How to install the <a href="https://github.com/hakimel/reveal.js">reveal.js</a> template pack: <a href="https://github.com/xarisd/slideshow-reveal.js/blob/add-submodule-commands-to-readme/README.markdown">github.com/xarisd/slideshow-reveal.js</a> (fork)
   </li>
 </ul>
+<p>&nbsp;</p>
+<p class="fragment">Oh!</p>
+<p class="fragment">About automation...</p>
+<p>&nbsp;</p>
+<p class="fragment"><a href="https://github.com/ruby/rake">https://github.com/ruby/rake</a></p>
+<p class="fragment">...awesomeness :-)</p>
 
 !SLIDE down-close
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

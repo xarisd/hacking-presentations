@@ -3,15 +3,18 @@ Hacking Presentations
 
 This is a presentation about how to build presentations (the slides) using Markdown.
 
+You can enjoy it online at <http://xarisd.io/presentations/hacking-presentations.html>.
+
+
 ## About this repository
 
-This is the source of the slides used for the presentation along with the tooling needed to build them.
+Here you can find the source of the slides used for the presentation along with the tooling needed to build them.
 
 Presentation is made with [Slide Show (s9) gem](https://github.com/slideshow-s9/slideshow) and [reveal.js HTML Presentation Framework](https://github.com/hakimel/reveal.js).
 
 ## How to build/test the presentation
 
-1. You will need Ruby 2.1.2
+1. You will need **Ruby 2.1.2**
 
 2. Install Bundler
 <pre><code>gem install bundler</code></pre>
@@ -35,6 +38,10 @@ Presentation is made with [Slide Show (s9) gem](https://github.com/slideshow-s9/
   <pre><code>rake</code></pre>
 
 7. Test the presentation: open <code>presentation/slides/presentation.html</code> in browser and enjoy.
+
+8. Explore what else you can do (export to pdf, open in browser etc)
+<pre><code>rake -T</code></pre>
+
 
 ## Tools used
 
