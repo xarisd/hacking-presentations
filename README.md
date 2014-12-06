@@ -3,7 +3,7 @@ Hacking Presentations
 
 This is a presentation about how to build presentations (the slides) using Markdown.
 
-You can enjoy it online at <http://xarisd.io/presentations/hacking-presentations.html>.
+You can enjoy it online at <http://xarisd.io/presentations/hacking-presentations>
 
 
 ## About this repository
