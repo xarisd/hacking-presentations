@@ -17,7 +17,7 @@ end
 
 desc "Opens the presentation in browser (presentation/slides/presentation.html)"
 task :show do
-  Launchy::Browser.run('presentation/slides/presentation.html')
+  Launchy.open('presentation/slides/presentation.html')
 end
 
 desc "Creates an UGLY pdf version of the presentation (presentation/slides/presentation.pdf)"
