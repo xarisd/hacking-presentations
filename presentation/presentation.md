@@ -3,7 +3,7 @@ author: Haris Dimitriou (xarisd)
 description: An introduction to building simple presentations with Markdown
 date: <%= Date.today %>
 % available themes: Default - Sky - Beige - Simple - Serif - Night - Moon - Solarized
-theme: serif
+theme: simple
 % available transitions: // default/cube/page/concave/zoom/linear/fade/none
 transition: linear
 custom_css: presentation
@@ -18,23 +18,20 @@ custom_css: presentation
 
 !SLIDE
 ## Who am I?
-
-<p>&nbsp;</p>
 <p>&nbsp;</p>
 <h3 class="fragment">
   Haris Dimitriou (<strong>xarisd</strong>)
 </h3>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 <p class="fragment">
-  CTO and co-founder @  <a href="http://www.polyptychon.gr">Polyptychon</a> (<a href="http://polyptychon.gr">polyptychon.gr</a>)
+  Ruby developer<span class="fragment">...among other things</span>
 </p>
 <p>&nbsp;</p>
 <p class="fragment">
-  <br>
-  ...just a developer
-  <br>
-  <br>
+  CTO and co-founder @<a href="http://www.polyptychon.gr">Polyptychon</a> (<a href="http://polyptychon.gr">polyptychon.gr</a>)
+</p>
+<p>&nbsp;</p>
+<p class="fragment">
   <a href="http://github.com/xarisd">github.com/xarisd</a>
   <br>
   <a href="http://twitter.com/xarisd">twitter.com/xarisd</a>
@@ -134,7 +131,6 @@ custom_css: presentation
 </ul>
 <p>&nbsp;</p>
 <p class="fragment">There are MANY more, but again...<span class="fragment">not interested</span></p>
-<p>&nbsp;</p>
 <p class="fragment">OK, maybe a little :-) </p>
 
 
@@ -209,7 +205,6 @@ custom_css: presentation
 
 ## Most Common
 
-<p>&nbsp;</p>
 <ul>
   <li class="fragment"><a href="http://imakewebthings.com/deck.js/">deck.js</a></li>
   <li class="fragment"><a href="http://bartaz.github.io/impress.js/#/bored">impress.js</a></li>
@@ -222,7 +217,6 @@ custom_css: presentation
 </ul>
 <p>&nbsp;</p>
 <p class="fragment">There are MANY more, coming up every day...</p>
-<p>&nbsp;</p>
 <p class="fragment">Give them a try and pick the one you prefer!</p>
 
 
@@ -300,7 +294,7 @@ custom_css: presentation
 ## What's the catch?
 
 <p>&nbsp;</p>
-<p class="fragment">...well</p>
+<p class="fragment">well...</p>
 <p>&nbsp;</p>
 <h3 class="fragment">You make them in <code>HTML</code></h3>
 <p>&nbsp;</p>
@@ -324,17 +318,17 @@ custom_css: presentation
 ## S9?
 
 <div class="fragment">
-  <%= image 'images/AudiA9render.jpg' %>
-  <p>is it...an Audi?</p>
+  <img src="images/AudiA9render.jpg" alt="Audi S9" height="400px"/>
+  <p>Is it...an Audi?</p>
 </div>
 
 !SLIDE
 ## S9
 
-<div class="fragment">
+<div>
   <img src="images/Ruby_logo.png" height="400px"/>
   <%#= image 'images/Ruby_logo.png' %>
-  <p>no...it's a Ruby gem</p>
+  <p>No...it's a Ruby gem</p>
 </div>
 
 
@@ -502,13 +496,14 @@ custom_css: presentation
 <p>&nbsp;</p>
 <p>
 <p class="fragment">
-  View it online: <a href="http://xarisd.io/presentations/hacking-presentations.html">xarisd.io/presentations/hacking-presentations.html</a>
+  View it online: <a href="http://xarisd.io/presentations/hacking-presentations">xarisd.io/presentations/hacking-presentations</a>
 </p>
 <p>&nbsp;</p>
 <p class="fragment">
-  Comments and feedback:<br/>
-  Send a tweet (or a "bad" direct message :-))<br/>
-  <a href="http://twitter.com/xarisd">@xarisd</a>
+  Have something to say?
+</p>
+<p class="fragment">
+  Send me a tweet or direct message: <a href="http://twitter.com/xarisd">@xarisd</a>
 </p>
 <p>&nbsp;</p>
 <p class="fragment">Questions?</p>
