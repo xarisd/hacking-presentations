@@ -10,7 +10,7 @@ end
 
 desc "Builds the presentation, which can be found in presentation/slides/presentation.html"
 task :build do
-    `slideshow build presentation/presentation.md -o presentation/slides -t reveal`
+    `bundle exec slideshow build presentation/presentation.md -o presentation/slides -t reveal`
     `cp presentation/presentation.css presentation/slides/`
     `cp -r presentation/images presentation/slides/`
 end
@@ -23,7 +23,7 @@ end
 desc "Creates an UGLY pdf version of the presentation (presentation/slides/presentation.pdf)"
 task :pdf do
    `rm -rf presentation/slides/pdf`
-  `slideshow build presentation/presentation.md -o presentation/slides/pdf`
+  `bundle exec slideshow build presentation/presentation.md -o presentation/slides/pdf`
   `wkhtmltopdf --outline presentation/slides/pdf/presentation.pdf.html presentation/slides/presentation.pdf`
    `rm -rf presentation/slides/pdf`
 end

@@ -10,7 +10,7 @@ You can enjoy it online at <http://xarisd.io/presentations/hacking-presentations
 
 Here you can find the source of the slides used for the presentation along with the tooling needed to build them.
 
-Presentation is made with [Slide Show (s9) gem](https://github.com/slideshow-s9/slideshow) and [reveal.js HTML Presentation Framework](https://github.com/hakimel/reveal.js).
+Presentation is made with [slideshow (s9) gem](https://github.com/slideshow-s9/slideshow) and [reveal.js HTML Presentation Framework](https://github.com/hakimel/reveal.js).
 
 ## How to build/test the presentation
 
